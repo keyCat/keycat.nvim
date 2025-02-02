@@ -9,15 +9,15 @@
 3. Install MinGW:
 
 ```bat
-choco install mingw
+choco install mingw ripgrep
 ```
 
-### Linux (APT)
+### Linux (apt)
 
 1. Install required tools:
 
 ```bash
-apt install git gcc
+apt install git gcc ripgrep
 ```
 
 ### MacOS (Homebrew)
@@ -28,7 +28,7 @@ apt install git gcc
 xcode-select --install
 ```
 2. Install [Homebrew](https://brew.sh/)
-3. Install GCC:
+3. Install binary dependencies:
 ```bash
-brew install gcc
+brew install gcc ripgrep
 ```
