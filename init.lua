@@ -1,6 +1,5 @@
 -- Core Vim Settings
-pcall(vim.cmd, "language en_US")	-- Set default editor language
-vim.cmd("set number")			-- Always display line numbers (:set nonumber to disable)
+require("config.settings")
 
 -- Package manager (put plugins into lua/plugins/<plugin>.lua)
 require("config.lazy")
