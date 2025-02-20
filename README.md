@@ -2,6 +2,8 @@
 
 ## Prerequisites
 
+Neovim >= 0.10.0
+
 ### Windows
 
 1. Install [git](https://git-scm.com/downloads)
