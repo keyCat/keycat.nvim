@@ -13,9 +13,7 @@ vim.keymap.set('n', '<C-k>', '<cmd>execute "move .-" . (v:count1 + 1)<cr>==', { 
 vim.keymap.set('v', '<C-j>', ':<C-u>execute "\'<,\'>move \'>+" . v:count1<cr>gv=gv', { desc = "Move Line Down" })
 vim.keymap.set('v', '<C-k>', ':<C-u>execute "\'<,\'>move \'<-" . (v:count1 + 1)<cr>gv=gv', { desc = "Move Line Up" })
 
--- Telescope keymaps
-local telescope = require('telescope.builtin')
-vim.keymap.set('n', '<leader>ff', telescope.find_files, { desc = '(Telescope) Find files' })
-vim.keymap.set('n', '<leader>fg', telescope.live_grep, { desc = '(Telescope) Live grep' })
-vim.keymap.set('n', '<leader>fb', telescope.buffers, { desc = '(Telescope) Find buffers' })
-vim.keymap.set('n', '<leader>fh', telescope.help_tags, { desc = '(Telescope) Help tags' })
+-- Snacks/Picker keymaps
+vim.keymap.set('n', '<leader>ff', function() Snacks.picker.files({ hidden = true }) end, { desc = '(Picker) Find files' })
+vim.keymap.set('n', '<leader>fg', function() Snacks.picker.grep({ hidden = true }) end, { desc = '(Picker) Live grep' })
+vim.keymap.set('n', '<leader>fb', function() Snacks.picker.buffers() end, { desc = '(Picker) Find buffers' })
