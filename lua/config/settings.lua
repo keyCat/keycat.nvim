@@ -8,4 +8,4 @@ vim.opt.tabstop = 2                 -- Number of spaces that a <Tab> in the file
 vim.opt.shiftwidth = 2              -- Number of spaces to use for each step of (auto)indent. 
 vim.opt.autoindent = false          -- Copy indent from current line when starting a new line (typing <CR> in Insert mode or when using the "o" or "O" command). 
 vim.opt.list = true                 -- Make tabs, spaces, trailing blanks and non-breakable characters visible
-vim.opt.listchars = { tab = "▓░", lead = "·", trail = "·", extends = "»", precedes = "«", nbsp = "⣿" }
+vim.opt.listchars = { tab = "——>", lead = "·", trail = "·", extends = "»", precedes = "«", nbsp = "⣿" }
