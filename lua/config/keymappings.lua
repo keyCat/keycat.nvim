@@ -17,3 +17,4 @@ vim.keymap.set('v', '<C-k>', ':<C-u>execute "\'<,\'>move \'<-" . (v:count1 + 1)<
 vim.keymap.set('n', '<leader>ff', function() Snacks.picker.files({ hidden = true }) end, { desc = '(Picker) Find files' })
 vim.keymap.set('n', '<leader>fg', function() Snacks.picker.grep({ hidden = true }) end, { desc = '(Picker) Live grep' })
 vim.keymap.set('n', '<leader>fb', function() Snacks.picker.buffers() end, { desc = '(Picker) Find buffers' })
+vim.keymap.set('n', '<leader>fl', function() Snacks.picker.lines() end, { desc = '(Picker) Search buffer lines' })
