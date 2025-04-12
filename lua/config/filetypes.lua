@@ -5,7 +5,7 @@ vim.filetype.add({
     inc = "sourcepawn",
     sourcepawn = "sourcepawn",
     -- Source (Valve) CFG
-    cfg = "sourcecfg",
+    cfg = "valvecfg",
   },
 
   filename = {
