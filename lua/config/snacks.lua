@@ -16,4 +16,10 @@ require("snacks").setup{
     enabled = true,
     replace_netrw = true,
   },
+  statuscolumn = {
+    enabled = true,
+    folds = {
+      git_hl = true,
+    },
+  },
 }
