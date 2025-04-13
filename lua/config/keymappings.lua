@@ -18,3 +18,7 @@ vim.keymap.set('n', '<leader>ff', function() Snacks.picker.files({ hidden = true
 vim.keymap.set('n', '<leader>fg', function() Snacks.picker.grep({ hidden = true }) end, { desc = '(Picker) Live grep' })
 vim.keymap.set('n', '<leader>fb', function() Snacks.picker.buffers() end, { desc = '(Picker) Find buffers' })
 vim.keymap.set('n', '<leader>fl', function() Snacks.picker.lines() end, { desc = '(Picker) Search buffer lines' })
+
+-- Snacks/Explorer keymaps
+vim.keymap.set({ 'n', 'v' }, '<leader>ee', function() Snacks.explorer.open() end, { desc = "(Explorer) Toggle file explorer" })
+vim.keymap.set({ 'n', 'v' }, '<leader>er', function () Snacks.explorer.reveal() end, { desc = "(Explorer) Reveal current file in file explorer" })
