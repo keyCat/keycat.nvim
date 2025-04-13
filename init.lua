@@ -19,8 +19,5 @@ require("config.noice")
 -- Gitsigns (https://github.com/lewis6991/gitsigns.nvim)
 require("config.gitsigns")
 
--- Indent Blankline (https://github.com/lukas-reineke/indent-blankline.nvim)
-require("config.indent-blankline")
-
 -- Keymaps
 require("config.keymappings")
