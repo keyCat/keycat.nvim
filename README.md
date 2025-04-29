@@ -11,7 +11,7 @@ Neovim >= 0.10.0
 3. Install MinGW:
 
 ```bat
-choco install mingw ripgrep
+choco install mingw ripgrep fd
 ```
 
 ### Linux (apt)
@@ -19,7 +19,7 @@ choco install mingw ripgrep
 1. Install required tools:
 
 ```bash
-apt install git gcc ripgrep
+apt install git gcc ripgrep fd-find
 ```
 
 ### MacOS (Homebrew)
@@ -32,5 +32,5 @@ xcode-select --install
 2. Install [Homebrew](https://brew.sh/)
 3. Install binary dependencies:
 ```bash
-brew install gcc ripgrep
+brew install gcc ripgrep fd
 ```
