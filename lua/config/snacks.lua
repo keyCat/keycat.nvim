@@ -10,7 +10,7 @@ require("snacks").setup{
     },
   },
   indent = {
-    enabled = true,
+    enabled = false,
   },
   explorer = {
     enabled = true,
