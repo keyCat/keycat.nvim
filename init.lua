@@ -4,6 +4,9 @@ require("config.settings")
 -- Package manager (put plugins into lua/plugins/<plugin>.lua)
 require("config.lazy")
 
+-- LSP / Formatter package manager (https://github.com/williamboman/mason.nvim)
+require("config.mason")
+
 -- Snacks (https://github.com/folke/snacks.nvim)
 require("config.snacks")
 
@@ -21,3 +24,6 @@ require("config.gitsigns")
 
 -- Keymaps
 require("config.keymappings")
+
+vim.lsp.enable('lua')
+vim.lsp.enable('typescript')

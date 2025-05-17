@@ -21,4 +21,4 @@ vim.keymap.set('n', '<leader>fl', function() Snacks.picker.lines() end, { desc =
 
 -- Snacks/Explorer keymaps
 vim.keymap.set({ 'n', 'v' }, '<leader>ee', function() Snacks.explorer.open() end, { desc = "(Explorer) Toggle file explorer" })
-vim.keymap.set({ 'n', 'v' }, '<leader>er', function () Snacks.explorer.reveal() end, { desc = "(Explorer) Reveal current file in file explorer" })
+vim.keymap.set({ 'n', 'v' }, '<leader>er', function() Snacks.explorer.reveal() end, { desc = "(Explorer) Reveal current file in file explorer" })
