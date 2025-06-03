@@ -27,3 +27,4 @@ require("config.keymappings")
 
 vim.lsp.enable('lua')
 vim.lsp.enable('typescript')
+vim.lsp.enable('go')
